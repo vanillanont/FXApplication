@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<link href="~/Scripts/Highstock-7.0.3/code/css/highcharts.css" rel="stylesheet" />
+<script src="~/Scripts/Highstock-7.0.3/code/highstock.js"></script>
+<script src="~/Scripts/Highstock-7.0.3/code/modules/drag-panes.js"></script>
+<script src="~/Scripts/EA-1.0.0.js"></script>
+
+
+
+
+<div class="row pb-1 pt-1">
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-5">รูปแบบกราฟ Buy</div>
+                    <div class="col-7 text-right">
+                        <a href="#" class="btn btn-outline-danger">ลบ</a>
+                        <a href="#" class="btn btn-outline-primary">บันทึก</a>
+                        <a href="#" class="btn btn-primary">ใช้งาน</a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row pb-1 pt-1">
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-10">เริ่มต้น</div>
+                    <div class="col-2">
+                        <button type="button" class="close" aria-label="Close">
+                            <i class="fa fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-3   col-md-2 ">
+                        <div class="col-12 pb-1">
+                            <a href="#" class=" btn btn-sm btn-outline-primary chart-button"><i class="fa fa-plus"></i> เพิ่ม</a>
+                        </div>
+                        <div class="col-12 pb-1">
+                            <a href="#" class=" btn btn-sm btn-outline-primary chart-button"><i class="fa fa-pencil"></i> แก้ไข</a>
+                        </div>
+                        <div class="col-12 pb-1">
+                            <a href="#" class=" btn btn-sm btn-outline-danger chart-button"><i class="fa fa-times"></i> ลบ&nbsp;&nbsp;</a>
+                        </div>
+                    </div>
+                    <div class="col-9  col-md-10  ">
+                        x
+                    </div>
+                </div>
+                <div id="chart01"></div>
+            </div>
+            <div class="card-footer text-right">
+                <a href="#" class="btn btn-outline-danger">ยกเลิกการแก้ไข</a>
+                <a href="#" class="btn btn-primary">บันทึก</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+
+</script>
